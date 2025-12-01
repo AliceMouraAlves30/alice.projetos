@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portifolio da Alice</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/IMG_20230724_154312_531.webp?v=1717538865524)" style="width:45%;" class="w3-round"><br><br> <!-- Avatar -->
+     <h4><b>Alice Moura Alves</b></h4>
+     </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Meu Portfolio</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Sobre</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="SUA FOTO" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+       
+    <h3><b>MEU PORTFÓLIO</b></h3>
+   <!-- <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div> -->
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    
+    <!-- Projeto 19-->
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://anaconda.cloud/share/notebooks/dc59b30f-ce8f-4008-82a4-e177ede67b88/overview“ target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/08c0f62d-4437-4b9b-82a9-959ee2697653.image.png?v=1717542263220" alt="Projeto 1" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <a href="https://anaconda.cloud/share/notebooks/dc59b30f-ce8f-4008-82a4-e177ede67b88/overview“target="_blank"><p><b>Análise Exploratória e Visualização das Vendas por Categoria de Produtos</b></p></a>
+        <p>Este projeto analisa dados de vendas por categoria de produtos, utilizando pandas, matplotlib e seaborn para gerar estatísticas descritivas e visualizações. Ele examina a distribuição das vendas com um histograma e destaca as 10 categorias mais vendidas com um gráfico de barras. O relatório final oferece insights sobre o desempenho das categorias e recomendações de marketing baseadas nas tendências observadas.</p>
+      </div>
+      
+      <!-- Projeto 20-->
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://anaconda.cloud/share/notebooks/cb3aea83-e4f8-4e9f-9fae-86cc909fb0a3/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/d70ed985-cec9-4744-897e-1ca78a3b514a.image.png?v=1717542797194" alt="Projeto 2" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+         <a href="https://anaconda.cloud/share/notebooks/cb3aea83-e4f8-4e9f-9fae-86cc909fb0a3/overview
+" target="_blank"><p><b>Previsão dos Preços das Ações do Walmart Usando ARIMA</b></p></a>
+        <p>Este projeto utiliza o modelo ARIMA para analisar e prever os preços de fechamento das ações do Walmart. Após preparar e visualizar os dados históricos, o modelo é ajustado, e os resíduos são analisados para verificar a adequação. As previsões indicam uma tendência de alta nos preços das ações. O relatório final destaca a importância de considerar fatores externos, como relatórios financeiros e indicadores econômicos, para uma análise completa e precisa.
+</p>
+      </div>
+    </div>
+    
+    <!-- Projeto 21-->
+    <div class="w3-third w3-container">
+     <a href="https://anaconda.cloud/share/notebooks/82de66ae-4b11-4dbd-81a1-d66a4b4c1188/overviw
+" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/cb8c1a06-90fb-4a8d-9f40-cf38d2701468.image.png?v=1717543092790" alt="Projeto 3" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+         <a href="https://anaconda.cloud/share/notebooks/82de66ae-4b11-4dbd-81a1-d66a4b4c1188/overviw
+" target="_blank"><p><b>Predição de Infecção por AIDS com Regressão Logística</b></p></a>
+        <p>Este projeto desenvolve um modelo de Regressão Logística para prever a infecção por AIDS utilizando dados de saúde e demográficos. A análise exploratória identifica padrões nas variáveis, e o pré-processamento prepara os dados para modelagem. Após treinar o modelo, as métricas de avaliação mostram um desempenho razoável. O relatório sugere melhorar o modelo com dados adicionais, como informações genéticas e histórico de exposição, para aumentar a precisão e a capacidade de generalização.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  
+  <div class="w3-row-padding">
+    <!-- Projeto 22-->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://anaconda.cloud/share/notebooks/1f64d7f0-e8bd-4697-91f2-28bde15f618b/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/6578208c-ca17-49d0-825e-381cda6661ac.image.png?v=1717543442613" alt="Projeto 4" style="width:100%" class="w3-hover-opacity"></a>
+<div class="w3-container w3-white">
+  <a href="https://anaconda.cloud/share/notebooks/1f64d7f0-e8bd-4697-91f2-28bde15f618b/overview" target="_blank"><p><b>Análise das Pontuações de Linguagens de Programação ao Longo do Tempo</b></p></a>
+  <p>Este projeto analisa a popularidade semanal de Python, Java e C++ ao longo do tempo. Utiliza visualizações, como histogramas e gráficos de dispersão, para identificar tendências e distribuições. Estatísticas descritivas e correlações entre as linguagens são calculadas, destacando possíveis influências externas e sugerindo investigações futuras para compreender melhor as variações observadas nas pontuações.</p>
+</div>
+</div>
+<div class="w3-third w3-container w3-margin-bottom">
+
+  <!-- Projeto 23-->
+  <a href="https://anaconda.cloud/share/notebooks/8c1ff814-0e15-4f0b-8940-c05d662cf599/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/ee500029-23de-4266-b6ca-7b8ecd7a167a.image.png?v=1717543761799" alt="Projeto 5" style="width:100%" class="w3-hover-opacity"></a>
+  <div class="w3-container w3-white">
+    <a href="https://anaconda.cloud/share/notebooks/8c1ff814-0e15-4f0b-8940-c05d662cf599/overview" target="_blank"><p><b>Análise e Classificação de Reclamações de Consumidores por Categoria de Produto</b></p></a>
+    <p>O projeto consiste em analisar e classificar reclamações de consumidores em categorias de produtos usando técnicas de processamento de linguagem natural e aprendizado de máquina, visando identificar preocupações-chave e fornecer insights para aprimoramentos.</p>
+  </div>
+</div>
+<div class="w3-third w3-container">
+
+  <!-- Projeto 24-->
+  <a href="https://anaconda.cloud/share/notebooks/7251b8ac-650b-477b-89bf-82242825b760/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/9ca9cdda-4107-4e08-b5e4-93e47e1de527.image.png?v=1717544097104" alt="Projeto 6" style="width:100%" class="w3-hover-opacity"></a>
+  <div class="w3-container w3-white">
+    <a href="https://anaconda.cloud/share/notebooks/7251b8ac-650b-477b-89bf-82242825b760/overview" target="_blank"><p><b>Análise Estatística e Modelagem de Encargos de Seguro de Saúde</b></p></a>
+    <p>O projeto realiza uma análise detalhada dos encargos de seguro de saúde, explorando a relação entre idade, IMC, hábito de fumar, sexo e número de filhos dos segurados. Também inclui modelagem estatística para prever os encargos com base nessas variáveis, proporcionando insights para otimizar a estratégia de preços em uma seguradora de saúde.</p>
+  </div>
+</div>
+</div>
+
+<!-- Second Photo Grid-->
+<div class="w3-row-padding">
+  <!-- Projeto 25-->
+  <div class="w3-third w3-container w3-margin-bottom">
+    <a href="https://anaconda.cloud/share/notebooks/a328784a-da20-4686-8a09-12e5b9779c7f/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/ccf21e82-e376-44be-b334-7ea1940073b1.image.png?v=1717544738592" alt="Projeto 7" style="width:100%" class="w3-hover-opacity"></a>
+    <div class="w3-container w3-white">
+      <a href="https://anaconda.cloud/share/notebooks/a328784a-da20-4686-8a09-12e5b9779c7f/overview" target="_blank"><p><b>Projeto de Análise de Dados sobre Ética em Inteligência Artificial</b></p></a>
+      <p>Neste projeto, realizamos uma análise abrangente de dados sobre ética em Inteligência Artificial (IA), utilizando um conjunto de dados de artigos disponíveis. Exploramos tendências ao longo do tempo, principais tópicos em abstracts, sentimentos expressos e outros insights relevantes para entender as preocupações e tendências relacionadas à ética em IA com base nos artigos analisados.</p>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+
+    <!-- Projeto 26-->
+    <a href="https://anaconda.cloud/share/notebooks/60ff5908-894f-4dfe-a614-d180b142e608/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/4ff83b62-3b36-4f8d-b48d-eab65442c176.image.png?v=1717545730222" alt="Projeto 8" style="width:100%" class="w3-hover-opacity"></a>
+    <div class="w3-container w3-white">
+      <a href="https://anaconda.cloud/share/notebooks/60ff5908-894f-4dfe-a614-d180b142e608/overview" target="_blank"><p><b>Análise de Comandos do Kubectl em Kubernetes</b></p></a>
+      <p>Neste projeto, realizamos uma análise abrangente dos comandos do kubectl em Kubernetes, destacando contagens por objetivo, sintaxe e uso de bandeiras. Identificamos padrões de uso, áreas de foco e insights relevantes para especialistas em Kubernetes, fornecendo uma visão abrangente da utilização e distribuição desses comandos essenciais no ambiente de contêineres.</p>
+    </div>
+  </div>
+  <div class="w3-third w3-container">
+
+    <!-- Projeto 27-->
+    <a href="https://anaconda.cloud/share/notebooks/91c1305f-4534-4533-958b-205721d57631/overview" target="_blank"><img src="https://cdn.glitch.global/b0273d6d-c95c-4647-9e86-391ab4e56d0d/846a3087-9a59-49bc-85c0-1809a6b6bbe5.image.png?v=1717547581944" alt="Projeto 9" style="width:100%" class="w3-hover-opacity"></a>
+    <div class="w3-container w3-white">
+      <a href="https://anaconda.cloud/share/notebooks/91c1305f-4534-4533-958b-205721d57631/overview" target="_blank"><p><b>Análise Exploratória de Dados com Visualização Gráfica Dinâmica</b></p></a>
+      <p>Este projeto oferece uma análise exploratória de dados com visualizações gráficas dinâmicas. Ele inclui detecção e tratamento de dados faltantes, estatísticas descritivas e uma variedade de gráficos como histogramas, barras, pizza, linha, dispersão, boxplot e matriz de correlação. Também permite uma análise especializada para insights adicionais.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Pagination -->
+<div class="w3-center w3-padding-32">
+  <div class="w3-bar">
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">&laquo;</a>
+    <a href="https://alice-projetos.glitch.me/" class="w3-bar-item w3-black w3-button">1</a>
+    <a href="https://alice-projetos.glitch.me/2.htm" class="w3-bar-item w3-button w3-hover-black">2</a>
+    <a href="https://alice-projetos.glitch.me/3.htm" class="w3-bar-item w3-button w3-hover-black">3</a>
+    <a href="https://alice-projetos.glitch.me/4.htm" class="w3-bar-item w3-button w3-hover-black">4</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">&raquo;</a>
+  </div>
+</div>
+
+<!-- Images of Me -->
+<div class="w3-row-padding w3-padding-16" id="about">
+  <div class="w3-col m6">
+    <img src="COLOQUE AQUI SUA FOTO 01" alt="Sua Foto" style="width:100%">
+  </div>
+  <div class="w3-col m6">
+    <img src="COLOQUE AQUI SUA FOTO 02" alt="Sua Foto" style="width:100%">
+  </div>
+</div>
+
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+  <h4><b>Sobre</b></h4>
+  <h2><b>TÍTULO</b></h2>
+  BREVE DESCRIÇÃO SUA E DE SEU PORTFÓLIO EM "HTML"
+
+<!-- Contact Section -->
+<div class="w3-container w3-padding-large w3-grey">
+  <h4 id="contact"><b>Contact Me</b></h4>
+  <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+    <div class="w3-third w3-dark-grey">
+      <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+      <p>SEU EMAIL</p>
+    </div>
+    <div class="w3-third w3-teal">
+      <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+      <p>ONDE ME ENCONTRAR</p>
+    </div>
+    <div class="w3-third w3-dark-grey">
+      <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+      <p>SEU CONTATO (TEL.)</p>
+    </div>
+  </div>
+  <hr class="w3-opacity">
+  <form action="/action_page.php" target="_blank">
+     
+  <div class="w3-black w3-center w3-padding-24">Desenvolvido durante o curso <a href="https://tcd-cedup.glitch.me/" title="W3.CSS" target="_blank" class="w3-hover-opacity">TCD</a></div>
+
+<!-- End page content -->
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
